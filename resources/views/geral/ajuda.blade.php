@@ -1,6 +1,8 @@
 @extends('geral.templates.geralTemplate')
 
 @section('content') 
+      <link rel="stylesheet" href="{{ asset('css/geral/ajuda.css') }}">
+
   @php $admin = auth()->guard('admin')->user(); @endphp
 
   @section('title', 'Dashboard - Painel Administrativo')

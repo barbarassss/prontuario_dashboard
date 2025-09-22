@@ -2,7 +2,7 @@
 
 @section('content')
 
-    <main class="main-container">
+    <main class="main-dashboard">
         <div class="logo-area">
             <img src="{{ asset('img/medico-logo1.png') }}" alt="Logo Prontuário" />
         </div>

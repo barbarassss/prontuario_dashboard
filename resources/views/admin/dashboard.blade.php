@@ -21,6 +21,8 @@
 @section('title', 'Dashboard - Painel Administrativo')
 
 @section('content')
+    <link rel="stylesheet" href="{{ asset('css/admin/dashboardAdm.css') }}">
+
 <div class="overview-container">
 
   {{-- Header --}}

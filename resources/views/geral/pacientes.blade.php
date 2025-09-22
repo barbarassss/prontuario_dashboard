@@ -1,11 +1,12 @@
 @extends('geral.templates.geralTemplate')
 
 @section('content')
+      <link rel="stylesheet" href="{{ asset('css/geral/pacientes.css') }}">
 
   @php $admin = auth()->guard('admin')->user(); @endphp
 
 
-    <main class="main-dashboardPacientes">
+    <main class="main-dashboard">
       <div class="patients-container">
         <div class="patients-header">
           <h1><i class="bi bi-people-fill"></i> Gerenciamento de Pacientes</h1>

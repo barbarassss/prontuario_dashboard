@@ -7,8 +7,7 @@
 
     {{-- CSS principal --}}
     <link rel="stylesheet" href="{{ asset('css/geral/template.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/geral/ajuda.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/geral/pacientes.css') }}">
+  
 
 
   

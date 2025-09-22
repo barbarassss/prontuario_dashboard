@@ -1,4 +1,5 @@
 @extends('admin.templates.admTemplate')
+    <link rel="stylesheet" href="{{ asset('css/admin/excluirMedico.css') }}">
 
     @php $admin = auth()->guard('admin')->user(); @endphp
    

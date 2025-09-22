@@ -32,19 +32,20 @@ body {
     justify-self: center; 
     margin-bottom: 30px;
     margin-left:10px;
-    margin-right: 500px ;
 }
 
 
 .medico-header h1 {
     color: #131D4F;
     margin: 0;
+    align-items: row;
     
 }
 
   
 .medico-header h1 i {
     margin-right: 10px;
+    margin-left: 40px;
 }
 
 .btn-add-medico {
@@ -65,8 +66,7 @@ body {
 .btn-add-medico:hover {
     background-color: #6c7ae0;
 }
-
-.search-filters {
+  .search-filters {
     display: flex;
     flex-direction: row;
     width: 450PX;
@@ -110,7 +110,7 @@ body {
   }
   
   .filters select {
-    padding: 12px 15px;
+    padding: 12px 18px;
     border: 1px solid #ddd;
     border-radius: 8px;
     font-size: 14px;
@@ -118,7 +118,6 @@ body {
     cursor: pointer;
   }
   
-
 .box-table {
     background-color: #dcdcf9;
     width: 90%;

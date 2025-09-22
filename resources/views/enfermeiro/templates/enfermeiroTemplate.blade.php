@@ -7,7 +7,6 @@
 
     {{-- CSS principal --}}
     <link rel="stylesheet" href="{{ asset('css/enfermeiro/template.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/enfermeiro/dashboardEnfermeiro.css') }}">
 
   
 

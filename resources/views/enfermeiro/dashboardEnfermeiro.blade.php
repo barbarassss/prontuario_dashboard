@@ -1,5 +1,8 @@
 @extends('admin.templates.admTemplate')
 
+@section ('content')
+    <link rel="stylesheet" href="{{ asset('css/enfermeiro/dashboardEnfermeiro.css') }}">
+
     <main class="content">
       <h1>OVERVIEW</h1>
 

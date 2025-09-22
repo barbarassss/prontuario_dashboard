@@ -1,6 +1,8 @@
 @extends('admin.templates.admTemplate')
 
 @section('content')
+    <link rel="stylesheet" href="{{ asset('css/admin/perfilAdm.css') }}">
+
   <script>
     window.onload = function() {
       @if(session('success'))
