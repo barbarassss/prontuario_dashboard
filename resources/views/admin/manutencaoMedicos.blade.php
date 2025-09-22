@@ -14,6 +14,7 @@
         </a>
       </div>
 
+      
       <div class="search-filters">
         <div class="search-box">
           <i class="bi bi-search"></i>
@@ -39,6 +40,7 @@
               <th>Ações</th>
             </tr>
           </thead>
+          
           <tbody>
             @foreach ($medicos as $medico)
               <tr data-status="{{ optional($medico->usuario)->statusAtivoUsuario == 1 ? 'ativo' : 'inativo' }}">

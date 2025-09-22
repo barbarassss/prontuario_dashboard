@@ -2,6 +2,7 @@
 
     @php $admin = auth()->guard('admin')->user(); @endphp
 
+    
   
   </div>
 

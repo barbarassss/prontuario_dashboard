@@ -2,6 +2,8 @@
 
     @php $admin = auth()->guard('admin')->user(); @endphp
    
+    @section('content')
+
     </div>
 
     <!-- Conteúdo principal -->

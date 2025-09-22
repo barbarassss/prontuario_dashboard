@@ -1,5 +1,9 @@
 @extends('admin.templates.admTemplate')
 
+@section('title', 'Dashboard - Painel Administrativo')
+
+@section('content')
+
   <main class="main-container">
 
     <!-- Lado azul com a logo -->

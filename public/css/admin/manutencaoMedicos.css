@@ -4,9 +4,11 @@ body {
     background-color: #f9f9f9;
 }
 
-.main-dashboard{
+.main-dashboard {
+    display: flex; /* Adicione esta linha */
+    justify-content: center; /* Adicione esta linha */
     padding: 30px;
-    margin-left: 10px;
+    /* margin-left: 10px; */ /* Remova ou comente esta linha */
 }
    
 .medico-container {
@@ -18,12 +20,19 @@ body {
 }
 
 .medico-header {
-    display: flex;
+    /* display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 30px;
     margin-left: 5px;
-    flex-direction: row;
+    flex-direction: row; */
+     display: flex;
+   justify-content: space-between;
+    align-items: center;
+    justify-self: center; 
+    margin-bottom: 30px;
+    margin-left:10px;
+    margin-right: 500px ;
 }
 
 

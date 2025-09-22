@@ -1,4 +1,6 @@
 @extends('admin.templates.admTemplate')
+ 
+@section('content')
 
   <!-- Conteúdo principal -->
   <main class="main-dashboard">

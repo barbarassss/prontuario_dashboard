@@ -1,10 +1,12 @@
 /* Estilos específicos para a página de segurança */
 
 .main-dashboard{
-  padding: 30px;
-  margin-left: 10px;
-  margin-top: 10px;
+    display: flex; /* Adicione esta linha */
+    justify-content: center; /* Adicione esta linha */
+    padding: 30px;
+    /* margin-left: 10px; */ /* Remova ou comente esta linha */
 }
+
 
 .security-container {
     max-width: 800px;
